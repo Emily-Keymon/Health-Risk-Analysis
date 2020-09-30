@@ -1,5 +1,7 @@
 ## Website:  https://emily-keymon.github.io/D3-challenge/
 
+![screenshot](https://user-images.githubusercontent.com/64673015/94632080-4cfa8f00-028f-11eb-9c60-0c745f5f96bf.PNG)
+
 # D3 Homework - Data Journalism and D3
 
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
