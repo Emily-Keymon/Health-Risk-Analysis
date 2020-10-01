@@ -1,5 +1,5 @@
 .aText {
-  font-family: sans-serif;
+  font-family: verdana;
   font-size: 16px;
   text-anchor: middle;
 
@@ -26,7 +26,7 @@
 
 /* font size dependent on radius, see app.js */
 .stateText {
-  font-family: sans-serif;
+  font-family: verdana;
   fill: #fff;
   text-anchor: middle;
 }
