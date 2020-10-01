@@ -1,6 +1,10 @@
+//===========================
 // D3 Animated Scatter Plot
+//===========================
 
+//===========================
 // 1) Pre-Data Setup
+//===========================
 
 // Get the width of the containing box
 var width = parseInt(d3.select("#scatter").style("width"));
@@ -38,9 +42,13 @@ function crGet() {
 }
 crGet();
 
+//===========================
 // Labels for the axes
+//===========================
 
+//===========================
 // A) Bottom axis
+//===========================
 
 // Create a group element to nest bottom axes labels
 svg.append("g").attr("class", "xText");
@@ -90,7 +98,9 @@ xText
   .attr("class", "aText inactive x")
   .text("Household Income (Median)");
 
+//===========================
 // B) Left axis
+//===========================
 
 // Assign variables to make transform attributes more readable
 var leftTextX = margin + tPadLeft;
@@ -111,7 +121,9 @@ function yTextRefresh() {
 }
 yTextRefresh();
 
+//===========================
 // Append the text
+//===========================
 
 // 1. Obesity
 yText
@@ -140,16 +152,20 @@ yText
   .attr("class", "aText inactive y")
   .text("Lacks Healthcare (%)");
 
+//===========================
 // 2) Import data.csv file
+//===========================
 
 // Import csv data with d3's .csv import method
 d3.csv("assets/data/data.csv").then(function(data) {
 
-  // Visualize the data
+// Visualize the data
   visualize(data);
 });
 
+//===========================
 // 3) Create the visualization function
+//===========================
 
 // This function handles the visual manipulation of all elements dependent on the data
 function visualize(theData) {
@@ -174,7 +190,7 @@ function visualize(theData) {
       // x key
       var theX;
 
-      // Get the state name.
+      // Get the state name
       var theState = "<div>" + d.state + "</div>";
 
       // Get the y value's key and value
@@ -188,7 +204,6 @@ function visualize(theData) {
       }
       else {
 
-        // Otherwise
         // Get the x key and a version of the value formatted to include commas after every third digit
         theX = "<div>" +
           curX +
@@ -361,7 +376,9 @@ function visualize(theData) {
       d3.select("." + d.abbr).style("stroke", "#e3e3e3");
     });
 
+  //===========================
   // 4) Make the Graph Dynamic
+  //===========================
 
   // Select all axis text and add this d3 click event
   d3.selectAll(".aText").on("click", function() {
@@ -419,6 +436,7 @@ function visualize(theData) {
         labelChange(axis, self);
       }
       else {
+      
         // When y is the saved axis, execute this:
         // Make curY the same as the data name
         curY = name;
@@ -463,7 +481,9 @@ function visualize(theData) {
     }
   });
 
-  // 5)  Mobile Responsive
+//===========================
+// 5)  Mobile Responsive
+//===========================
 
   // Select window
   d3.select(window).on("resize", resize);
