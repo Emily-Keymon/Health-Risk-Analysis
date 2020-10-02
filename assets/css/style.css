@@ -3,14 +3,16 @@
   border: 1px solid #e3e3e3;
 }
 
-/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  /* Padding bottom by footer height */
   padding-bottom: 80px;
 }
 
+h1 {
+font-family: verdana;
+color: green;
+}
+
+h2 {
+font-family: verdana;
+color: green;
+}

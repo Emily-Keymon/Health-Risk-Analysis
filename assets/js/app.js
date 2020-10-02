@@ -436,7 +436,7 @@ function visualize(theData) {
         labelChange(axis, self);
       }
       else {
-      
+
         // When y is the saved axis, execute this:
         // Make curY the same as the data name
         curY = name;
