@@ -1,5 +1,5 @@
 .aText {
-  font-family: verdana;
+  font-family: arial;
   font-size: 16px;
   text-anchor: middle;
 
@@ -26,20 +26,21 @@
 
 /* font size dependent on radius, see app.js */
 .stateText {
-  font-family: verdana;
+  font-family: arial;
   fill: #fff;
   text-anchor: middle;
 }
 
 .stateCircle {
-  fill: #8bd389;
+  fill: lightgreen;
   stroke: #e3e3e3;
 }
 
 .chart {
   display: block;
   margin: 0;
-}
+  padding: 10px;
+ }
 
 .d3-tip {
   padding: 6px;

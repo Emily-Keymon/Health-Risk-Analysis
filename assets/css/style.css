@@ -6,22 +6,25 @@
 body {
   padding-bottom: 80px;
   text-align: center;
+  background-color: whitesmoke;
 }
 
 h1 {
-font-family: verdana;
-color: green;
+font-family: arial black;
+color: darkred;
 text-align: center;
-border: 5px solid green;
+padding: 10px;
 }
 
 h2 {
-font-family: verdana;
-color: green;
+font-family: arial black;
+color: darkred;
 text-align: center;
+padding: 20px;
 }
 
 p {
-font-family: verdana;
+font-family: arial;
 text-align: left;
+padding: 10px;
 }
