@@ -5,14 +5,23 @@
 
 body {
   padding-bottom: 80px;
+  text-align: center;
 }
 
 h1 {
 font-family: verdana;
 color: green;
+text-align: center;
+border: 5px solid green;
 }
 
 h2 {
 font-family: verdana;
 color: green;
+text-align: center;
+}
+
+p {
+font-family: verdana;
+text-align: left;
 }
