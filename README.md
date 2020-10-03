@@ -35,5 +35,5 @@ While the ticks on the axes allow us to infer approximate values for each circle
 
 ## Website:  https://emily-keymon.github.io/D3-challenge/
 
-![screenshot2](https://user-images.githubusercontent.com/64673015/95002351-6d309380-0598-11eb-9ba8-15a7f3727080.PNG)
+![screenshot](https://user-images.githubusercontent.com/64673015/95002404-31e29480-0599-11eb-8c0e-aaee1096308a.PNG)
 
