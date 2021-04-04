@@ -6,7 +6,7 @@ The goal of this project was to use JavaScript to present a visualization of pre
 
 ---
 ## Dataset
-https://github.com/Emily-Keymon/Health-Risk-Analysis/tree/master/assets/data
+https://github.com/Emily-Keymon/Health-Risk-Analysis/blob/master/assets/data/data.csv
 
 ---
 ## Tools Used
