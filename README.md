@@ -2,8 +2,9 @@
 
 ---
 # Health Risk Analysis
+The goal of this project was to use JavaScript to present a visualization of pre-selected census data from each state within a web page. Since the baseline data was provided in CSV format, D3 was used to import and process the data, as well as generate the required visualization.
 
-
+---
 ## Background
 
 Welcome to the newsroom! You've just accepted a data visualization position for a major metro paper. You're tasked with analyzing the current trends shaping people's lives, as well as creating charts, graphs, and interactive elements to help readers understand your findings.
