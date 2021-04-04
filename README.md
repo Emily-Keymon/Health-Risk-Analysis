@@ -10,7 +10,9 @@ https://github.com/Emily-Keymon/Health-Risk-Analysis/blob/master/assets/data/dat
 
 ---
 ## Tools Used
-
+* PyCharm - Python IDE
+* HTML, CSS, Bootstrap
+* JavaScript - d3
 
 ---
 ## Tasks
