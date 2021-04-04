@@ -16,11 +16,14 @@ https://github.com/Emily-Keymon/Health-Risk-Analysis/blob/master/assets/data/dat
 
 ---
 ## Tasks
-
+1.  Import the data from the CSV file.
+2.  Set the locations and ranges for the x and y axes.
+3.  Plot the x and y axes.
+4.  Set the coordinates and dimensions for the circles representing the data for each state.
+5.  Plot the circles representing the data for each state.
+6.  Add a text label of each state's abbreviation within the appropriate circle for identification purposes.
 
 ---
-
-
 ## Results
 ![screenshot](https://user-images.githubusercontent.com/64673015/95002404-31e29480-0599-11eb-8c0e-aaee1096308a.PNG)
 
